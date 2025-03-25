@@ -1,0 +1,83 @@
+:root {
+  --color-main: #1a1a1a; /* Cor principal */
+  --color-text: #333333; /* Cor do texto */
+  --color-light-grey: #e6e6e6; /* Cinza claro */
+  --color-dark-grey: #b3b3b3; /* Cinza escuro */
+  --color-background: #f8f8f8; /* Cor de fundo */
+  --border-radius: 8px; /* Bordas arredondadas */
+  --box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 8px;
+}
+
+.redirect {
+  font-weight: 500;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 15px;
+}
+
+/* Estilo para os links que são botões (A tags) */
+.redirect a {
+  color: var(--color-main);
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 15px;
+  border-radius: var(--border-radius);
+  border: 1px solid var(--color-main);
+  width: 100%;
+  max-width: 320px;
+  text-align: center;
+  display: block;
+  margin: 10px 0;
+}
+
+.cardImgItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+}
+
+.cardImg {
+  max-width: 100%;
+  border-radius: var(--border-radius);
+}
+
+audio {
+  display: none;
+}
+
+/* Estilo de links com input */
+.input-field {
+  margin: 10px 0;
+}
+
+.input-text-messages input {
+  padding: 10px;
+  width: 100%;
+  border-radius: 4px;
+  border: 1px solid var(--color-dark-grey);
+}
+
+.input-text-messages img {
+  width: 20px;
+  margin-top: 5px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/* Responsividade */
+@media (max-width: 480px) {
+  #header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .redirect a {
+    max-width: 100%;
+  }
+
+  .redirect {
+    gap: 10px;
+  }
+}

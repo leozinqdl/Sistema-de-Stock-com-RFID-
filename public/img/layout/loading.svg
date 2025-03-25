@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" id="Camada_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1024 768" style="enable-background:new 0 0 280 110;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#015F36;}
+	.st1{fill:#F7C400;}
+	.st2{fill:url(#SVGID_1_);}
+	.st3{fill:url(#SVGID_2_);}
+	.st4{fill:none;}
+</style>
+<g>
+	<path class="st0" d="M247.9,245.1c212.7,23.7,0.3,144.7-24.7,165.3C496.6,273.8,457.2,198.5,247.9,245.1z"/>
+	<path class="st1" d="M824,251.3c-6.2-49.6-158.9-71.3-341.2-48.6c-182.2,22.7-325,81.3-318.8,130.9s158.9,71.3,341.2,48.6
+		S830.1,300.9,824,251.3z M187.7,326.9c-6.1-40,117.6-87.9,273.5-106.6c155.9-18.7,286.2-1.4,291,38.8
+		c3.3,40.3-104.7,85.4-273.5,106.6C246.6,388.1,192.2,347.1,187.7,326.9z M504.7,376c-84.2,9.8-205.5,9.8-264.5-5.8
+		c52,13.8,160.9,10.8,231.2,3.8c177.8-24.1,291-73.3,287.1-116.6c-5.6-43.1-143.2-60.9-307.3-39.6c-95.1,12.3-201.9,38-254.6,77
+		c53.7-43,176.1-72.8,287.2-86.7c178.8-22.3,328.3-2.8,334.1,43.6C821.9,298.1,698.4,350.7,504.7,376z"/>
+	<radialGradient id="SVGID_1_" cx="739.5106" cy="234.7292" r="16.4375" gradientUnits="userSpaceOnUse">
+		<stop  offset="0" style="stop-color:#FFFFFF"/>
+		<stop  offset="1" style="stop-color:#F7C400"/>
+	</radialGradient>
+	<circle class="st2" cx="735.8" cy="237.2" r="16.4"/>
+	<radialGradient id="SVGID_2_" cx="786.3231" cy="215.0417" r="16.5" gradientUnits="userSpaceOnUse">
+		<stop  offset="0" style="stop-color:#FFFFFF"/>
+		<stop  offset="1" style="stop-color:#F7C400"/>
+	</radialGradient>
+	<circle class="st3" cx="782.8" cy="217.8" r="16.5"/>
+	<g>
+		<path class="st4" d="M340.7,300.1h53.5c59.7-62-4-86.7-146.4-55C325.3,253.7,346.4,275.2,340.7,300.1z"/>
+		<path class="st0" d="M223.2,410.5c87.5-43.7,142.9-81.2,171-110.4h-53.5C330.9,343.5,239.1,397.3,223.2,410.5z"/>
+	</g>
+	<path class="st0" d="M395.5,246c216.1,19.7,0.3,144.7-24.7,165.3C644.1,274.7,608.9,200.8,395.5,246z"/>
+	<path class="st0" d="M544.4,246c216.1,19.7,0.3,144.7-24.7,165.3C793,274.7,757.8,200.8,544.4,246z"/>
+</g>
+<g>
+	<!-- 1 --><path class="st0" d="M313,466L313,466c-3.9,0-7-3.1-7-7v-19c0-3.9,3.1-7,7-7l0,0c3.9,0,7,3.1,7,7v19C320,462.9,316.8,466,313,466z"
+		>
+		<animateTransform id="svg" attributeName="transform" attributeType="XML" type="translate" begin=".1" dur="1s"	values="0,6;0,-6;0,6" repeatCount="indefinite"/>
+		</path>
+	<!-- 2 --><path class="st0" d="M337,466L337,466c-3.9,0-7-3.1-7-7v-19c0-3.9,3.1-7,7-7l0,0c3.9,0,7,3.1,7,7v19C344,462.9,340.8,466,337,466z"
+		>
+		<animateTransform id="svg" attributeName="transform" attributeType="XML" type="translate" begin=".2" dur="1s"	values="0,6;0,-6;0,6" repeatCount="indefinite"/>
+		</path>
+	<!-- 3 --><path class="st0" d="M362,466L362,466c-3.9,0-7-3.1-7-7v-19c0-3.9,3.1-7,7-7l0,0c3.9,0,7,3.1,7,7v19C369,462.9,365.8,466,362,466z"
+		>
+		<animateTransform id="svg" attributeName="transform" attributeType="XML" type="translate" begin=".3" dur="1s"	values="0,6;0,-6;0,6" repeatCount="indefinite"/>
+		</path>
+	<!-- 4 --><path class="st0" d="M386,466L386,466c-3.9,0-7-3.1-7-7v-19c0-3.9,3.1-7,7-7l0,0c3.9,0,7,3.1,7,7v19C393,462.9,389.8,466,386,466z"
+		>
+		<animateTransform id="svg" attributeName="transform" attributeType="XML" type="translate" begin=".4" dur="1s"	values="0,6;0,-6;0,6" repeatCount="indefinite"/>
+		</path>
+	<!-- 5 --><path class="st0" d="M410,466L410,466c-3.9,0-7-3.1-7-7v-19c0-3.9,3.1-7,7-7l0,0c3.9,0,7,3.1,7,7v19C417,462.9,413.8,466,410,466z"
+		>
+		<animateTransform id="svg" attributeName="transform" attributeType="XML" type="translate" begin=".5" dur="1s"	values="0,6;0,-6;0,6" repeatCount="indefinite"/>
+		</path>
+	<!-- 6 --><path class="st0" d="M434,466L434,466c-3.9,0-7-3.1-7-7v-19c0-3.9,3.1-7,7-7l0,0c3.9,0,7,3.1,7,7v19C441,462.9,437.8,466,434,466z"
+		>
+		<animateTransform id="svg" attributeName="transform" attributeType="XML" type="translate" begin=".6" dur="1s"	values="0,6;0,-6;0,6" repeatCount="indefinite"/>
+		</path>
+	<!-- 7 --><path class="st0" d="M459,466L459,466c-3.9,0-7-3.1-7-7v-19c0-3.9,3.1-7,7-7l0,0c3.9,0,7,3.1,7,7v19C466,462.9,462.8,466,459,466z"
+		>
+		<animateTransform id="svg" attributeName="transform" attributeType="XML" type="translate" begin=".7" dur="1s"	values="0,6;0,-6;0,6" repeatCount="indefinite"/>
+		</path>
+	<!-- 8 --><path class="st0" d="M483,466L483,466c-3.9,0-7-3.1-7-7v-19c0-3.9,3.1-7,7-7l0,0c3.9,0,7,3.1,7,7v19C490,462.9,486.8,466,483,466z"
+		>
+		<animateTransform id="svg" attributeName="transform" attributeType="XML" type="translate" begin=".8" dur="1s"	values="0,6;0,-6;0,6" repeatCount="indefinite"/>
+		</path>
+	<!-- 9 --><path class="st0" d="M505,465L505,465c-3.9,0-7-3.1-7-7v-19c0-3.9,3.1-7,7-7l0,0c3.9,0,7,3.1,7,7v19C512,461.9,508.8,465,505,465z"
+		>
+		<animateTransform id="svg" attributeName="transform" attributeType="XML" type="translate" begin=".9" dur="1s"	values="0,6;0,-6;0,6" repeatCount="indefinite"/>
+		</path>
+	<!-- 10 --><path class="st0" d="M529,465L529,465c-3.9,0-7-3.1-7-7v-19c0-3.9,3.1-7,7-7l0,0c3.8,0,7,3.1,7,7v19C536,461.9,532.8,465,529,465z"
+		>
+		<animateTransform id="svg" attributeName="transform" attributeType="XML" type="translate" begin="1.0" dur="1s"	values="0,6;0,-6;0,6" repeatCount="indefinite"/>
+		</path>
+	<!-- 11 --><path class="st0" d="M554,465L554,465c-3.9,0-7-3.1-7-7v-19c0-3.9,3.1-7,7-7l0,0c3.8,0,7,3.1,7,7v19C561,461.9,557.8,465,554,465z"
+		>
+		<animateTransform id="svg" attributeName="transform" attributeType="XML" type="translate" begin="1.1" dur="1s"	values="0,6;0,-6;0,6" repeatCount="indefinite"/>
+		</path>
+	<!-- 12 --><path class="st0" d="M578,465L578,465c-3.9,0-7-3.1-7-7v-19c0-3.9,3.1-7,7-7l0,0c3.8,0,7,3.1,7,7v19C585,461.9,581.8,465,578,465z"
+		>
+		<animateTransform id="svg" attributeName="transform" attributeType="XML" type="translate" begin="1.2" dur="1s"	values="0,6;0,-6;0,6" repeatCount="indefinite"/>
+		</path>
+	<!-- 13 --><path class="st0" d="M602,465L602,465c-3.9,0-7-3.1-7-7v-19c0-3.9,3.1-7,7-7l0,0c3.8,0,7,3.1,7,7v19C609,461.9,605.8,465,602,465z"
+		>
+		<animateTransform id="svg" attributeName="transform" attributeType="XML" type="translate" begin="1.3" dur="1s"	values="0,6;0,-6;0,6" repeatCount="indefinite"/>
+		</path>
+	<!-- 14 --><path class="st0" d="M626,465L626,465c-3.9,0-7-3.1-7-7v-19c0-3.9,3.1-7,7-7l0,0c3.8,0,7,3.1,7,7v19C633,461.9,629.8,465,626,465z"
+		>
+		<animateTransform id="svg" attributeName="transform" attributeType="XML" type="translate" begin="1.4" dur="1s"	values="0,6;0,-6;0,6" repeatCount="indefinite"/>
+		</path>
+	<!-- 15 --><path class="st0" d="M651,465L651,465c-3.9,0-7-3.1-7-7v-19c0-3.9,3.1-7,7-7l0,0c3.8,0,7,3.1,7,7v19C658,461.9,654.8,465,651,465z"
+		>
+		<animateTransform id="svg" attributeName="transform" attributeType="XML" type="translate" begin="1.5" dur="1s"	values="0,6;0,-6;0,6" repeatCount="indefinite"/>
+		</path>
+	<!-- 16 --><path class="st0" d="M675,465L675,465c-3.9,0-7-3.1-7-7v-19c0-3.9,3.1-7,7-7l0,0c3.8,0,7,3.1,7,7v19C682,461.9,678.8,465,675,465z"
+		>
+		<animateTransform id="svg" attributeName="transform" attributeType="XML" type="translate" begin="1.6" dur="1s"	values="0,6;0,-6;0,6" repeatCount="indefinite"/>
+		</path>
+	
+</g>
+</svg>

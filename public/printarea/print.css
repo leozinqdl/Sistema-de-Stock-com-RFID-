@@ -1,0 +1,132 @@
+@media print {
+  body {
+    margin: 0 auto !important;
+    padding: 0;
+    line-height: 1.4em;
+    color: #000;
+    width: 800px !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    position: relative !important;
+    background: none !important;
+  }
+  @page {
+    width: 29.7;
+    min-height: 21cm;
+    margin: 0.3cm;
+  }
+  .wrap {
+    width: 100%;
+    margin: 0;
+    float: none !important;
+  }
+  .no-print,
+  nav,
+  footer,
+  video,
+  audio,
+  object,
+  embed {
+    display: none;
+  }
+  .print {
+    display: block;
+  }
+  img {
+    max-width: 100%;
+  }
+  aside {
+    display: block;
+    page-break-before: always;
+  }
+  h1 {
+    font-size: 24pt;
+  }
+  h2 {
+    font-size: 18pt;
+  }
+  h3 {
+    font-size: 14pt;
+  }
+  p {
+    font-size: 12pt;
+    widows: 3;
+    orphans: 3;
+  }
+  a,
+  a:visited {
+    text-decoration: underline;
+  }
+  a:link:after,
+  a:visited:after {
+    content: " (" attr(href) ") ";
+  }
+  p a {
+    word-wrap: break-word;
+  }
+  q:after {
+    content: " (" attr(cite) ")";
+  }
+  a:after,
+  a[href^="javascript:"]:after,
+  a[href^="#"]:after {
+    content: "";
+  }
+  .page-break {
+    page-break-before: always;
+  }
+  .print-img {
+    width: 922px !important;
+  }
+  .print-img>img {
+    width: 100% !important;
+    height: auto !important;
+  }
+  /*------------------------------ CSS PRINT QR PRODUTOS--------------------------------*/
+  /*------ CHROME ------*/
+  .bycode-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 0 15px !important;
+    padding: 10px !important;
+    width: 400px !important;
+    height: 300px !important;
+  }
+  
+  /*------ FIREFOX ---------*/
+  .bycode-container-firefox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin: 200px 0px 0 -145px !important; */
+    padding: 10px !important;
+    width: 320px !important;
+    height: 200px !important;
+  }
+  
+  .bycode__logo {
+    width: 100px;
+    border-right: 1px solid rgba(0, 0, 0, 1);
+    padding: 10px;
+  }
+  .bycode-container__item {
+    border-right: 2px solid rgba(0, 0, 0, 1);
+  }
+  .bycode-container__logo {
+    width: 270px !important;
+  }
+  .bycode-container__item {
+    padding: 5px;
+  }
+  .bycode-container__img {
+    width: 300px !important;
+  }
+  .bycode-container__msg {
+    font-size: 35px !important;
+    font-family: 'arial';
+    font-weight: bold;
+    padding: 3px;
+    margin-top: 10px;
+  }
+}

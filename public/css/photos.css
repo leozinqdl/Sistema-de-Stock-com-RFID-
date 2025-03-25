@@ -1,0 +1,102 @@
+.slick-slide {
+  text-align: center;
+}
+.slick-list {
+  height: 230px !important;
+}
+.imglist {
+  width: 88vw;
+  margin: 25px auto;
+  height: 180px;
+}
+
+.imglist__img {
+  height: 100px !important;
+  padding: 0.5vw;
+  margin: 0.25vw;
+  width: 100px !important;
+}
+
+.fancybox-thumbs-img > div {
+  margin: 5px;
+  padding: 5px;
+}
+
+.fancybox-image-wrap img {
+  transition: all 350ms ease;
+}
+.fancybox-excluir-img {
+  height: 30px !important;
+  margin: 0 auto;
+}
+
+.photo_draw_ul {
+  clear: both;
+  margin-bottom: 25px;
+  text-align: left;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.photo_draw_li {
+  vertical-align: text-top;
+  text-align: center;
+  background: var(--card_white);
+  margin: 5px;
+  color: var(--color_text);
+  border-radius: 5px;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.5);
+}
+
+.photo_draw_icon {
+  display: inline-block;
+  vertical-align: middle;
+  width: 50%;
+}
+
+.photo_draw_file {
+  display: inline-block;
+  vertical-align: middle;
+  width: 90%;
+  font-size: 1.75em;
+  text-align: center !important;
+  margin: 0 auto;
+  color: rgb(60, 72, 88);
+}
+
+.photo_draw_delete {
+  text-align: center !important;
+  cursor: pointer;
+  font-size: 14px;
+  color: rgb(108, 108, 108);
+}
+
+
+
+/*------------------ FILES ------------------*/
+.md-files {
+  clear: both;
+  margin-bottom: 25px;
+  text-align: left;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+}
+
+.md-files_li {
+  vertical-align: text-top;
+  text-align: center;
+  background: var(--card_white);
+  margin: 10px;
+  color: var(--color_text);
+  border-radius: 5px;
+  min-width: 300px;
+  position: relative;
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.5);
+  margin-top: 25px;
+}
+.fancybox-button svg {
+  height: 28px;
+  width: 28px;
+}

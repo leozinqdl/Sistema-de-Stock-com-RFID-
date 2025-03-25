@@ -1,0 +1,181 @@
+ol, ul, li {margin: 0; padding: 0;}
+ol, ul { list-style: none;}
+
+.space_ajax {
+  clear: both;
+}
+
+/*----------------- TELAS EM AJAX ------------------*/
+.ajax_opacity{
+position:fixed;
+top:0px;
+bottom:0px;
+left:0px;
+right:0px;
+background:rgba(0,0,0,.5);
+text-align:center;
+z-index:99999999999999999;
+overflow-y:auto;
+}
+
+.ajax_contant{
+position:relative;
+width:80%;
+background: var(--color_back);
+min-height:15vw;
+margin:50px auto 10px auto;
+padding:15px;
+}
+
+.ajax_contant label {
+	width: 120px;
+	text-align: left;
+}
+
+.container_pages_ajax {
+    margin-top: 15vw;
+  }
+
+/*----------------- TELAS DO CALENDARIO ------------------*/
+.calendar_opacity{
+position:fixed;
+top:0px;
+bottom:0px;
+left:0px;
+right:0px;
+background:rgba(0,0,0,.5);
+text-align:center;
+z-index: 9999;
+overflow-y:auto;
+}
+
+.calendar_contant{
+position:relative;
+width:360px;
+height: 100%;
+background: var(--color_back);
+min-height:15vw;
+margin:auto 5px auto auto;
+padding:10px;
+}
+
+/*----------------------- BOTOES -----------------------------*/
+.bt-fechar{
+	display:block;
+	padding:10px;
+	margin:auto 5px auto auto;
+}
+.bt-fechar__bt{
+	width:40px;
+	height:40px;
+	line-height:40px;
+	border-radius:50%;
+	color:rgba(240,240,240,1);
+	background: rgba(89, 0, 71, 1);
+	font-size:1.2em;
+	float:right;
+	margin:5px 5px 10px 5px;
+}
+.bt-fechar__minimizar{
+	width:40px;
+	height:40px;
+	line-height:35px;
+	border-radius:50%;
+	background:rgba(214,126,0,1);
+	color:rgba(240,240,240,1);
+	font-size:2em;
+	float:right;
+	margin:5px 5px 10px 5px;
+}
+/*--------------------------------  MEDIA RESPONSIVE ---------------------------------------*/
+/*------------------------------------------------------------------------------------------*/
+/*---------1920px(1913px with scroll)----------*/
+@media (max-width: 120.000em){
+
+}
+/*-------1680px(1663px with scroll)------------*/
+@media (max-width: 105.000em){
+
+}
+/*-------1600px(1583px with scroll)------------*/
+@media screen and (max-width: 100.000em){
+	
+}
+/*-------1440px(1423px with scroll)------------*/
+@media screen and (max-width: 90.000em){
+
+}
+/*-------1366px(1349px with scroll)------------*/
+@media screen and (max-width: 85.375em){
+
+}
+
+/*-------1280px------------*/
+@media screen and (max-width: 80.000em){
+
+}
+/*-------1200px------------*/
+@media screen and (max-width: 75.000em){
+}
+/*-------1080px------------*/
+@media screen and (max-width: 67.500em){
+}
+/*-----------1024px------*/
+@media screen and (max-width: 64.000em){
+.ajax_contant{width:80%;}
+}
+/*-----------1000px------*/
+@media screen and (max-width: 62.500em){
+}
+
+/*---------------------980px-------------------*/
+@media screen and (max-width: 61.250em){
+
+}
+/*---------------------900px-------------------*/
+@media screen and (max-width: 56.250em){
+
+}
+/*---------------------800px-------------------*/
+@media screen and (max-width: 50.000em){
+	
+}
+/*---------------------768px-------------------*/
+@media screen and (max-width: 48.000em){
+}
+/*---------------------680px-------------------*/
+@media screen and (max-width: 42.500em){
+}
+/*---------------------640px-------------------*/
+@media screen and (max-width: 40.000em){
+}
+/*---------------------600px-------------------*/
+@media screen and (max-width: 37.500em){
+	input[type="text"], input[type="number"], select
+	{
+  		width: 40%;
+  	}
+}
+/*---------------------480px-------------------*/
+@media screen and (max-width: 30.000em){
+	input[type="text"], input[type="number"], select
+	{
+  		width: 40%;
+  	}
+}
+
+/*---------------------360px-------------------*/
+@media screen and (max-width: 22.500em){
+	input[type="text"], input[type="number"], select
+	{
+  		width: 40%;
+  	}
+}
+
+/*---------------------320px-------------------*/
+@media screen and (max-width: 20.000em){
+	input[type="text"], input[type="number"], select
+	{
+  		width: 40%;
+  	}
+}
