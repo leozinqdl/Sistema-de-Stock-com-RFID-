@@ -14,14 +14,8 @@
             $Redirect->redirectDrawList(null, null, "Config. Maquina ", "friends", "off", "/settingsmachine/insert");
             $Redirect->redirectDrawList(null, null, "Debulha Mecanica ", "friends", "off", "/mechanicalthreshing/insert");
             $Redirect->redirectDrawList(null, null, "Descarte ", "friends", "off", "/disposal/insert");
-            // $Redirect->redirectDrawList(null, null, "Estoque", "badge", "off", "/stock/insert");
-            // $Redirect->redirectDrawList(null, null, "Cadastrar RFIDS", "friends", "off", "/tagsrfid/insert");
-            // confirmar se esta certo esses redirects
             $Redirect->redirectDrawList(null, null, "Final De Lotes ", "friends", "off", "/endbatch/insert");
             $Redirect->redirectDrawList(null, null, "Troca De Lotes ", "friends", "off", "/change/insert");
-            // nao sei onde colocar os de baixo perguntar
-            // $Redirect->redirectDrawList(null, null, "Palet completo ", "friends", "off", "/whichpallet/insert");
-            // $Redirect->redirectDrawList(null, null, "RFID ", "friends", "off", "/rfidregister/insert");
         ?></div>
     </div>
 </div>

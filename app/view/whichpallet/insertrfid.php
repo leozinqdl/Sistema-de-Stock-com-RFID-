@@ -100,7 +100,7 @@ if (!isset($_SESSION['form_data'])) {
                 });
         }
 
-        // Atualiza as leituras a cada 2 segundos
+        // Atualiza as leituras a cada (5) segundos
         setInterval(updateReadings, 5000);
 
         // Botão para finalizar o processo

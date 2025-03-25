@@ -2,10 +2,10 @@
 // Retorna JSON
 header("Content-Type: application/json");
 
-// Inicia a sessão para acessar os dados do formulário
+//* Inicia a sessão para acessar os dados do formulário *//
 session_start();
 
-// Verifica se os dados do formulário estão na sessão
+//* Verifica se os dados do formulário estão na sessão *//
 if (!isset($_SESSION['form_data'])) {
     echo json_encode([["status" => "error", "message" => "Dados do formulário não encontrados.", "epc" => null]]);
     exit;
@@ -22,7 +22,7 @@ class Register
         $this->formData = $formData;
     }
 
-    // Função para obter os dados do leitor RFID
+    //* Função para obter os dados do leitor RFID *// 
     function getDataFromSDCard()
     {
         $url = "http://192.168.0.10:8080/getTagSDCard";
@@ -60,7 +60,7 @@ class Register
         }
     }
 
-    // Função para salvar ou atualizar os dados no banco de dados remoto
+    //* Função para salvar ou atualizar os dados no banco de dados remoto *// 
     function saveOrUpdateRemoteDatabase($tags_epx, $tags_date)
     {
         $host = 'localhost';
@@ -143,7 +143,7 @@ class Register
         }
     }
 
-    // Função para processar as tags recebidas
+    //* Função para processar as tags recebidas *// 
     function processTags($tags)
     {
         if (empty($tags)) {
@@ -177,7 +177,7 @@ class Register
         return $results;
     }
 
-    // Função principal para processar e retornar os dados
+    //* Função principal para processar e retornar os dados *// 
     function rfidData()
     {
         $data = $this->getDataFromSDCard();
@@ -193,6 +193,6 @@ class Register
     }
 }
 
-// Executa o processo
+//*** Executa o processo ***// 
 $register = new Register($formData);
 $register->rfidData();

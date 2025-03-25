@@ -100,28 +100,3 @@
             });
     });
 </script>
-<script>
-    document.getElementById('formulario').addEventListener('submit', function(e) {
-        e.preventDefault(); // Impede o envio padrão do formulário
-
-        // Cria um FormData com os dados do formulário
-        const formData = new FormData(this);
-
-        // Envia os dados do formulário via Fetch API
-        fetch(this.action, {
-                method: this.method,
-                body: formData
-            })
-            .then(response => {
-                if (response.ok) {
-                    // Redireciona após o envio bem-sucedido
-                    window.location.href = '<?= URL_BASE ?>/shed/insert';
-                } else {
-                    console.error('Erro ao enviar o formulário');
-                }
-            })
-            .catch(error => {
-                console.error('Erro:', error);
-            });
-    });
-</script>
